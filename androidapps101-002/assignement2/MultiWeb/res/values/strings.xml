@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MultiWeb</string>
+    <string name="title_activity_war_of_worlds">WarOfWorlds</string>
+    <string name="title_activity_jabberwocky">Jabberwocky</string>
+    <string name="title_activity_nasauoi">NASAUOI</string>
+    <string name="title_activity_roundball">Roundball</string>
+    <string name="wikipedia">Wikipedia</string>
+    <string name="beast">Beast</string>
+
+</resources>

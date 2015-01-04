@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TuringBabbage</string>
+    <string name="action_settings">Settings</string>
+    <string name="captionTuring">Alan Mathison Turing, OBE, FRS (23 June 1912 – 7 June 1954) was a British mathematician, logician, cryptanalyst, philosopher, pioneering computer scientist, mathematical biologist, and marathon and ultra distance runner.</string>
+    <string name="turing">Alan Turing</string>
+    <string name="captionBabbage">Charles Babbage, FRS (26 December 1791 – 18 October 1871) was an English polymath. He was a mathematician, philosopher, inventor and mechanical engineer, who is best remembered now for originating the concept of a programmable computer.</string>
+    <string name="babbage">Charles Babbage</string>
+</resources>

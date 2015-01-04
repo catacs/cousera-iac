@@ -1,0 +1,39 @@
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html"  charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Chat">
+    <meta name="author" content="Catalin Stanciu">
+    <title>Chat</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+</head>
+<body>
+
+<div id="conversation">
+</div>
+<div>
+<input id="input-text" type="text" name="text"><br>
+<button id="input" type="button" class="btn btn-default btn-lg">
+  <span class="glyphicon glyphicon-star" aria-hidden="true"></span> Send
+</button>
+</div>
+<script language="javascript" src="js/jquery-1.11.1.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<script language="javascript" type="text/javascript">
+    $(function () {
+		$('#input').click(function() {
+			var value = $('#input-text').val();
+			$('#conversation').append("<p> You say: " + value +"<p>");
+			$('#conversation').append("<p> Machine says: " + value +"<p>");
+			$('#input-text').val("");
+		})
+  	});
+</script>
+</body>
+</html>
+
